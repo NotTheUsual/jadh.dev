@@ -1,0 +1,31 @@
+.experiment-grid {
+  display: grid;
+  font-family: -apple-system, Helvetica Neue, sans-serif;
+  grid-gap: 3.6%;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem auto;
+  width: 500px;
+}
+
+.experiment-grid__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.experiment-grid__item--twitter {
+  background-color: #009dff;
+  color: #fff;
+}
+
+.experiment-grid__item-number {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.experiment-grid__item-text {
+  margin: 0;
+}

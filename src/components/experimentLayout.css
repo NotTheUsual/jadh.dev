@@ -1,0 +1,29 @@
+.experiments-header .experiments__logo {
+  height: 3rem;
+  margin: 1rem;
+  width: 3rem;
+}
+
+.experiments__logo-title {
+  display: none;
+  margin: 0;
+}
+
+.experiments__logo-link {
+  align-items: center;
+  display: inline-flex;
+  color: #666;
+  text-decoration: none;
+}
+
+.experiments__logo-link:hover .jadh-logo__bg {
+  fill: #006;
+}
+
+.experiments__logo-link:hover .experiments__logo-title {
+  display: inline;
+}
+
+.experiments__title {
+  text-align: center;
+}

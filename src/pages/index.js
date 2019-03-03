@@ -1,11 +1,11 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 
-import JADHLogo from "../images/JADHLogo"
+import JADHLogo from '../images/JADHLogo'
 
-import "../components/layout.css"
-import "./index.css"
+import '../components/layout.css'
+import './index.css'
 
-const themes = ["blue", "red", "green"]
+const themes = ['blue', 'red', 'green']
 
 const IndexPage = () => {
   const [theme, setTheme] = useState(0)
