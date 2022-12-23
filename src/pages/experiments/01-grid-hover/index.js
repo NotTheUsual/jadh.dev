@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ExperimentLayout from '../../../components/experimentLayout'
 import twitter from './twitter.svg'
 import twitterWhite from './twitter-white.svg'
-import styles from './grid-hover.module.css'
+import * as styles from './grid-hover.module.css'
 
 const GridHoverExperiment = () => {
   const [clicked, setClicked] = useState(false)
