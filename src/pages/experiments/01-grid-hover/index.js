@@ -14,7 +14,7 @@ const GridHoverExperiment = () => {
 
   return (
     <ExperimentLayout title="Weird grid hover thing">
-      <a href="#" className={styles.twitterLink} onClick={toggleClick}>
+      <button className={styles.twitterLink} onClick={toggleClick}>
         <div className={styles.linkLowerLevel}>
           <div className={styles.linkLowerLeft}>
             <img
@@ -48,7 +48,7 @@ const GridHoverExperiment = () => {
             </div>
           )}
         </div>
-      </a>
+      </button>
     </ExperimentLayout>
   )
 }

@@ -1,5 +1,8 @@
 .twitter-link {
+  appearance: none;
   background: red;
+  border: 0;
+  cursor: pointer;
   display: block;
   font-family: -apple-system, Helvetica Neue, sans-serif;
   height: 200px;
