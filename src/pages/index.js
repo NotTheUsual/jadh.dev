@@ -26,8 +26,12 @@ const IndexPage = () => {
         <div className="home-grid__block" />
         <div className="home-grid__block" />
         <div className="home-grid__block" />
-        <div className="home-grid__block" />
-        <div className="home-grid__block" />
+        <a className="home-grid__block home-grid__block--link" href='/contact/'>
+          <span>Contact</span>
+        </a>
+        <a className="home-grid__block home-grid__block--link" href='/experiments/'>
+          <span>Experiments</span>
+        </a>
         <div className="home-grid__block" />
         <div className="home-grid__block" />
         <div className="home-grid__block" />
