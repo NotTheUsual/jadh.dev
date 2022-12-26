@@ -25,6 +25,7 @@
 }
 
 .title {
+  font-family: inherit;
   text-align: center;
 }
 
