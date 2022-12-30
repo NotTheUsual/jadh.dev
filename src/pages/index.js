@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'gatsby'
 
 import JADHLogo from '../images/JADHLogo'
 
@@ -23,15 +24,18 @@ const IndexPage = () => {
       <div className="home-grid">
         <div className="home-grid__block" />
         <div className="home-grid__block" />
+        {/* <div className="home-grid__block" /> */}
+        <Link className="home-grid__block home-grid__block--link" to='/about/'>
+          <span>About</span>
+        </Link>
         <div className="home-grid__block" />
         <div className="home-grid__block" />
-        <div className="home-grid__block" />
-        <a className="home-grid__block home-grid__block--link" href='/contact/'>
+        <Link className="home-grid__block home-grid__block--link" to='/contact/'>
           <span>Contact</span>
-        </a>
-        <a className="home-grid__block home-grid__block--link" href='/experiments/'>
+        </Link>
+        <Link className="home-grid__block home-grid__block--link" to='/experiments/'>
           <span>Experiments</span>
-        </a>
+        </Link>
         <div className="home-grid__block" />
         <div className="home-grid__block" />
         <div className="home-grid__block" />
