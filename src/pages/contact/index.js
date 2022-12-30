@@ -1,6 +1,6 @@
 import React from 'react'
 import StandardLayout from '../../components/standardLayout'
-import { FaBug, FaGithub, FaMastodon, FaTwitter } from 'react-icons/fa'
+import { FaBug, FaGithub, FaLinkedin, FaMastodon, FaTwitter } from 'react-icons/fa'
 import * as classes from './contact.module.css';
 
 const links = [{
@@ -26,6 +26,12 @@ const links = [{
   handle: 'NotTheUsual',
   link: 'https://github.com/NotTheUsual/',
   Icon: FaGithub
+}, {
+  name: 'LinkedIn',
+  handle: 'James Hunter',
+  link: 'https://uk.linkedin.com/in/james-hunter-5145aa92',
+  Icon: FaLinkedin,
+  tint: 'hsl(211, 66%, 77%)'
 }];
 
 const Contact = () => (
