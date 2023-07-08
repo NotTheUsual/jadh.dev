@@ -1,6 +1,7 @@
 import React from 'react'
 import StandardLayout from '../../components/standardLayout'
 import { FaBug, FaGithub, FaLinkedin, FaMastodon, FaTwitter } from 'react-icons/fa'
+import { GoMention } from 'react-icons/go'
 import * as classes from './contact.module.css';
 
 const links = [{
@@ -32,6 +33,12 @@ const links = [{
   link: 'https://uk.linkedin.com/in/james-hunter-5145aa92',
   Icon: FaLinkedin,
   tint: 'hsl(211, 66%, 77%)'
+}, {
+  name: 'Threads',
+  handle: 'jadhunter',
+  link: 'https://www.threads.net/@jadhunter',
+  Icon: GoMention,
+  tint: 'hsl(211, 0%, 77%)'
 }];
 
 const Contact = () => (
