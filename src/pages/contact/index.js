@@ -5,17 +5,11 @@ import { GoMention } from 'react-icons/go'
 import * as classes from './contact.module.css';
 
 const links = [{
-  name: 'Twitter',
-  handle: '@jadhunter',
-  link: 'https://twitter.com/jadhunter',
-  Icon: FaTwitter,
-  tint: 'hsl(203, 100%, 77%)'
-}, {
-  name: 'Mastodon',
-  handle: '@jadhunter@mastodon.social',
-  link: 'https://mastodon.social/@jadhunter',
-  Icon: FaMastodon,
-  tint: 'hsl(239, 100%, 77%)'
+  name: 'BlueSky',
+  handle: '@jadh.dev',
+  link: 'https://bsky.app/profile/jadh.dev',
+  Icon: FaCloud,
+  tint: 'hsl(215, 77%, 68%)'
 }, {
   name: 'Cohost',
   handle: '@jadhunter',
@@ -34,17 +28,23 @@ const links = [{
   Icon: FaLinkedin,
   tint: 'hsl(211, 66%, 77%)'
 }, {
+  name: 'Mastodon',
+  handle: '@jadhunter@mastodon.social',
+  link: 'https://mastodon.social/@jadhunter',
+  Icon: FaMastodon,
+  tint: 'hsl(239, 100%, 77%)'
+}, {
   name: 'Threads',
   handle: 'jadhunter',
   link: 'https://www.threads.net/@jadhunter',
   Icon: GoMention,
   tint: 'hsl(211, 0%, 77%)'
 }, {
-  name: 'BlueSky',
-  handle: '@jadh.dev',
-  link: 'https://bsky.app/profile/jadh.dev',
-  Icon: FaCloud,
-  tint: 'hsl(215, 77%, 68%)'
+  name: 'Twitter',
+  handle: '@jadhunter',
+  link: 'https://twitter.com/jadhunter',
+  Icon: FaTwitter,
+  tint: 'hsl(203, 100%, 77%)'
 }];
 
 const Contact = () => (
