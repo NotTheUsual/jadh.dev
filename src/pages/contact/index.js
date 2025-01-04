@@ -11,12 +11,6 @@ const links = [{
   Icon: FaCloud,
   tint: 'hsl(215, 77%, 68%)'
 }, {
-  name: 'Cohost',
-  handle: '@jadhunter',
-  link: 'https://cohost.org/jadhunter',
-  Icon: FaBug,
-  tint: 'hsl(34, 100%, 77%)'
-}, {
   name: 'GitHub',
   handle: 'NotTheUsual',
   link: 'https://github.com/NotTheUsual/',
